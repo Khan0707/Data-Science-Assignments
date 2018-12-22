@@ -341,7 +341,7 @@ where payment_type != 2;
 -------group average is more than solo which implies that passengers travelling in groups are likely to give a higher tip.
 
 
-********Segregate the data into five segments of ‘tip paid’******
+********Segregate the data into five segments of Â‘tip paidÂ’******
 
 select Tip_Bucket, count(*)as Num_Records, max(records_count)as Total_Number_Records, 
 round(count(*)/max(records_count),5)as Tip_Bucket_asfractionof_Overall
@@ -364,7 +364,7 @@ order by Tip_Bucket_asfractionof_Overall desc;
 --15_Bucket_20 constitutes 0.191% of all records in the dataset.
 --20above_Bucket constitutes 0.090% of all records in the dataset.
 
-*******Which month has a greater average ‘speed’ - November or December? ****
+*******Which month has a greater average Â‘speedÂ’ - November or December? ****
 
 ----For November we have 12.695
 
