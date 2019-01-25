@@ -1,9 +1,0 @@
-Flask==1.0.2
-Flask-Cors==3.0.7
-Flask-RESTful==0.3.6
-gunicorn==19.9.0
-itsdangerous==1.1.0
-Jinja2==2.10
-MarkupSafe==1.0
-Werkzeug==0.14.1
-wheel==0.24.0
